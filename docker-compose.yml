@@ -1,6 +1,6 @@
 services:
-  rekisteri:
-    image: sadeghmohebbi/rekistery:0.0.1
+  rekistry:
+    image: sadeghmohebbi/rekistry:0.0.1
     ports:
       - "5000:5000"
     environment:

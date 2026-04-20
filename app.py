@@ -56,7 +56,7 @@ def package(namespace, name, version, os, arch):
 
 @app.route('/')
 def home():
-    return 'Rekisteri (Simple terraform private/local registry)'
+    return 'Rekistry (Simple terraform private/local registry)'
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
