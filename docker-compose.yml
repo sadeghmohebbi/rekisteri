@@ -1,8 +1,8 @@
 services:
   rekistry:
-    image: sadeghmohebbi/rekistry:0.0.1
+    image: sadeghmohebbi/rekistry:1.0.0
     ports:
       - "5000:5000"
     environment:
-      - FLASK_ENV=development
-      - FLASK_APP=main.py
+      - FLASK_ENV=production
+      - FLASK_APP=app.py
